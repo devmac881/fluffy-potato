@@ -1,0 +1,25 @@
+.threshold-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.threshold-control label {
+  font-weight: 600;
+}
+
+.threshold-control .slider-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.threshold-control input[type='range'] {
+  flex: 1;
+}
+
+.threshold-control .value {
+  min-width: 2.5rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
