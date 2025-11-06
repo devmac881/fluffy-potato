@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Sample Campus Network",
+    "description": "Synthetic dataset exported from NetworkX"
+  },
+  "nodes": [
+    { "id": "A", "name": "North Hub", "coordinates": [-122.4194, 37.7749] },
+    { "id": "B", "name": "East Station", "coordinates": [-122.4094, 37.7759] },
+    { "id": "C", "name": "South Depot", "coordinates": [-122.4194, 37.7649] },
+    { "id": "D", "name": "West Terminal", "coordinates": [-122.4294, 37.7749] },
+    { "id": "E", "name": "Central Switch", "coordinates": [-122.4194, 37.7699] }
+  ],
+  "edges": [
+    { "id": "A-B", "from": "A", "to": "B", "weight": 4 },
+    { "id": "A-E", "from": "A", "to": "E", "weight": 3 },
+    { "id": "B-E", "from": "B", "to": "E", "weight": 1 },
+    { "id": "E-C", "from": "E", "to": "C", "weight": 2 },
+    { "id": "E-D", "from": "E", "to": "D", "weight": 2 },
+    { "id": "C-D", "from": "C", "to": "D", "weight": 4 }
+  ]
+}

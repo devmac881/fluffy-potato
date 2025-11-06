@@ -1,0 +1,20 @@
+[
+  {
+    "id": "origin_north",
+    "name": "North Hub",
+    "nodeId": "A",
+    "description": "Primary dispatch center"
+  },
+  {
+    "id": "origin_central",
+    "name": "Central Switch",
+    "nodeId": "E",
+    "description": "Central switching facility"
+  },
+  {
+    "id": "origin_south",
+    "name": "South Depot",
+    "nodeId": "C",
+    "description": "Southern storage site"
+  }
+]

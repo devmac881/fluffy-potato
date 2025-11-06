@@ -1,0 +1,29 @@
+.coverage-map {
+  position: relative;
+  flex: 1;
+}
+
+.mapbox-instance {
+  position: absolute;
+  inset: 0;
+}
+
+.loading-overlay,
+.empty-state {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0d1b2a;
+  text-align: center;
+  padding: 2rem;
+}
+
+.empty-state {
+  background: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+}
